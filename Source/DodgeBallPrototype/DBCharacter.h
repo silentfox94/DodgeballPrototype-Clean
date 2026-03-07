@@ -27,6 +27,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AbilitySystem")
 	class UDBAttributeSet* GetDBAttributeSet;
 
+	
+
 protected:
 	// Gameplay Effect Replication Mode
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AbilitySystem")

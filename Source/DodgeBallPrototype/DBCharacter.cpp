@@ -17,6 +17,7 @@ ADBCharacter::ADBCharacter()
 	AbilitySystemComponent->SetIsReplicated(true);
 	AbilitySystemComponent->SetReplicationMode(AscReplicationMode);
 
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -38,7 +39,9 @@ ADBCharacter::ADBCharacter()
 
 	// Add the basic Attribute Set
 	DBAttributeSet = CreateDefaultSubobject<UDBAttributeSet>(TEXT("DBAttributeSet"));
+
 }
+
 
 // Called when the game starts or when spawned
 void ADBCharacter::BeginPlay()
