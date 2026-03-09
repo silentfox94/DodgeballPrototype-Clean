@@ -23,14 +23,13 @@
 			"Name": "StateTree",
 			"Enabled": true
 		},
-
 		{
 			"Name": "GameplayStateTree",
 			"Enabled": true
 		},
 		{
-			"Name": "GameplayAbilities", 
-			"Enabled": true 
+			"Name": "GameplayAbilities",
+			"Enabled": true
 		},
 		{
 			"Name": "VisualStudioTools",
@@ -38,6 +37,26 @@
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
+		},
+		{
+			"Name": "MotionTrajectory",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationLocomotionLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "Mover",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
 		}
 	]
 }
