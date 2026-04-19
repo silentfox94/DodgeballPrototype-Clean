@@ -5,6 +5,10 @@
 
 ADBSandboxPawnBase::ADBSandboxPawnBase()
 {
+	CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CapsuleComponent"));
+	RootComponent = CapsuleComponent;
+	CapsuleComponent->SetCollisionProfileName(TEXT("Pawn"));
+
 	PrimaryActorTick.bCanEverTick = true;
 
 	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));

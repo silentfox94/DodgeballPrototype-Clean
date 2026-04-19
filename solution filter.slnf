@@ -1,0 +1,15 @@
+{
+  "solution": {
+    "path": "DodgeBallPrototype.sln",
+    "projects": [
+      "F:\\UE_5.7\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "F:\\UE_5.7\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "F:\\UE_5.7\\Engine\\Plugins\\ScriptPlugin\\Source\\ScriptGeneratorUbtPlugin\\ScriptGeneratorUbtPlugin.ubtplugin.csproj",
+      "F:\\UE_5.7\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "F:\\UE_5.7\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "Intermediate\\Build\\BuildRulesProjects\\DodgeBallPrototypeModuleRules\\DodgeBallPrototypeModuleRules.csproj",
+      "Intermediate\\ProjectFiles\\DodgeBallPrototype.vcxproj",
+      "Intermediate\\ProjectFiles\\UE5.vcxproj"
+    ]
+  }
+}

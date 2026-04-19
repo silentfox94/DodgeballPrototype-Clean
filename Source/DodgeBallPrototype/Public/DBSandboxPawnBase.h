@@ -6,6 +6,8 @@
 #include "GameFramework/Pawn.h"
 #include "AbilitySystemInterface.h"
 #include "AbilitySystemComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "MoverComponent.h"
 #include "DBAttributeSet.h"
 #include "DBSandboxPawnBase.generated.h"
 
@@ -20,6 +22,12 @@ public:
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 protected:
+
+	
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Capsule")
+	TObjectPtr<UCapsuleComponent> CapsuleComponent;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Abilities")
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
 

@@ -16,6 +16,7 @@ public class DodgeBallPrototype : ModuleRules
 			"GameplayAbilities",
 			"GameplayTags",
 			"GameplayTasks",
+			"Mover",
             "EnhancedInput",
 			"AIModule",
 			"StateTreeModule",
