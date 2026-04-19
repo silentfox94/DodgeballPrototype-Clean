@@ -33,4 +33,5 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Abilities")
 	TObjectPtr<UDBAttributeSet> DBAttributeSet;
+
 };
