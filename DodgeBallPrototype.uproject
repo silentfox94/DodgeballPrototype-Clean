@@ -61,6 +61,10 @@
 		{
 			"Name": "MoverExamples",
 			"Enabled": true
+		},
+		{
+			"Name": "Locomotor",
+			"Enabled": true
 		}
 	]
 }
